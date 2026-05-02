@@ -1,0 +1,12 @@
+version: 1
+
+agents:
+  dir: ./agents
+
+# Web search - leave blank for now, add Tavily key later if needed
+webSearch:
+  provider: tavily
+  apiKey: "${TAVILY_API_KEY}"
+
+fetchUrl:
+  provider: jina
